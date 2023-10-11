@@ -1,0 +1,33 @@
+.calculadora {
+    max-width: 600px;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #474c5a;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+#resultado {
+    width: 97%;
+    font-size: 24px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #f5f3f3;
+    color: #943737;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #868687;
+}
